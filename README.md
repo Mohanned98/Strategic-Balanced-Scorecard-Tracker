@@ -1,13 +1,18 @@
 # Strategic-Balanced-Scorecard-Tracker
 
-This dashboard implements the Balanced Scorecard framework, measuring organisational health across four distinct perspectives: Finance, Customer, Operations, and Resources.
+Project Overview
+This project is a sophisticated implementation of the Balanced Scorecard framework. It provides a 360-degree view of organisational performance across Finance, Customer, Operations, and Resource perspectives.
 
-Calculation Logic: I designed the logic to consolidate data from four separate operational areas. I created a unified calculation sheet that compares 'Previous Year', 'Actual', and 'Plan' metrics across multiple US states.
+My Contribution
+Starting with a pre-cleaned multi-source dataset, I was responsible for the strategic logic and dashboard build:
 
-Visualisation & Design:
+The Logic Layer: I built the formulas required to synchronise four different business areas, allowing for simultaneous comparisons of 'Previous Year', 'Actual', and 'Plan' figures.
 
-Created a "Single Source of Truth" view where users can toggle between states (e.g., California, New York) to update the entire scorecard.
+Dashboard Architecture: I designed the layout and built the interactive elements that allow for seamless switching between different states and territories.
 
-Designed custom charts to track conversion rates, Net Promoter Scores (NPS), and staff absenteeism.
+Key Features
+Four Perspectives: Integrated views of P&L (Finance), NPS/Conversion (Customer), Call Volume (Operations), and Headcount/Absenteeism (Resources).
 
-Key Technical Contributions: Slicer-driven interactivity, complex data aggregation, and conditional UI elements.
+Gap Analysis: Automated variance calculations to highlight where the business is missing strategic targets.
+
+Dynamic Visuals: Custom-built charts that reflect localised performance based on user selection.
